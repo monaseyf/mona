@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mona/static/css/main.63741dc2.css",
-    "main.js": "/mona/static/js/main.a31da3e2.js",
+    "main.js": "/mona/static/js/main.a061f6f7.js",
     "static/media/iranped.png": "/mona/static/media/iranped.dac6073b1f6737bcb8fc.png",
     "static/media/arman.png": "/mona/static/media/arman.eb61807b906f11d1a5d1.png",
     "static/media/6.jpg": "/mona/static/media/6.40fdd6cb8af5ae30671a.jpg",
@@ -48,10 +48,10 @@
     "static/media/arrow_left.svg": "/mona/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/mona/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.63741dc2.css.map": "/mona/static/css/main.63741dc2.css.map",
-    "main.a31da3e2.js.map": "/mona/static/js/main.a31da3e2.js.map"
+    "main.a061f6f7.js.map": "/mona/static/js/main.a061f6f7.js.map"
   },
   "entrypoints": [
     "static/css/main.63741dc2.css",
-    "static/js/main.a31da3e2.js"
+    "static/js/main.a061f6f7.js"
   ]
 }
