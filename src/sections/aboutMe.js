@@ -57,7 +57,7 @@ const AboutMe = () => {
                   toggleSegment("2");
                 }}
               >
-                UI / UX Experiences{" "}
+                Professional Experiences{" "}
               </h4>
             ) : (
               <h4
@@ -66,7 +66,7 @@ const AboutMe = () => {
                   toggleSegment("2");
                 }}
               >
-                UI / UX Experiences{" "}
+                Professional Experiences{" "}
               </h4>
             )}{" "}
             {activeSegment === "3" ? (
@@ -136,11 +136,9 @@ const AboutMe = () => {
               >
                 <div className="marginTop" />
                 <p className="descriptionP">
-                  Working in Rayan Pajouh Salamat company as a Ui / Ux designer
-                  and software tester.I have learned many things here especially
-                  how to communicate with client and be patient in my way.{" "}
-                </p>{" "}
-                <p className="eventDate"> Dec 2019 </p>{" "}
+                  Working in different companies as a Ui / Ux designer and developer.My passion for innovation and problem-solving drives me to constantly seek out new challenges and push the boundaries of what's possible. 
+                </p>
+                <p className="eventDate"> Dec 2019 - March 2023 </p>{" "}
               </MDBAnimation>
             ) : activeSegment == "3" ? (
               <MDBAnimation

@@ -39,8 +39,8 @@ const ArchProjects = () => {
               <MDBBtn
                 className="cvBtn"
                 outline
-                color="white"
-                href="http://monaseyf.ir/portfolio.pdf"
+                color="gray"
+                href="https://monaseyf.github.io/mona/portfolio.pdf"
                 target="_blank"
               >
                 Portfolio{" "}

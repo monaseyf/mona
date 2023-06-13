@@ -17,7 +17,7 @@ const UIProjects = () => {
           </MDBNavbarBrand>
         </Link>{" "}
         <h3 className="sectionTitle" style={{ marginTop: "15px" }}>
-          UI - UX Projects{" "}
+          Professional Projects{" "}
         </h3>{" "}
       </MDBNavbar>
       <MDBRow>

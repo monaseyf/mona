@@ -236,7 +236,7 @@ const OtherProjects = () => {
               src={
                 activePhoto != null
                   ? activePhoto.src
-                  : require("../images/photography/1.jpg")
+                  : require("../images/photography/shadow.jpg")
               }
             />{" "}
           </div>{" "}

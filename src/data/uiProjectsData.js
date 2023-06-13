@@ -1,6 +1,16 @@
 export default [
     {
-        animationDelay: "0.5s",
+        animationDelay: "0s",
+        imgSource: require("../images/projects/lumenwire.png"),
+        title: "Lumenwire",
+        description: "LUMENWIRE is an online platform for international money transfers. In this project, I was responsible for writing the contents to increase website traffic, and developing social media and email marketing campaigns.",
+        employer: "Lumenwire company",
+        team: "Lumenwire",
+        date: "August/2022 - March/2023",
+        role: "Digital marketing specialist",
+    },
+    {
+        animationDelay: "0s",
         imgSource: require("../images/projects/afranet.png"),
         title: "Afranet",
         description: "A redesign of the Afranet website  to enhance the user experience and foster better interaction between customers and service providers. when I joined this project the second sprint had started. In this phase, I designed admin panel pages and prepared optimization analyses to enhance their performance and refactor implemented user interface designs.",
@@ -10,7 +20,7 @@ export default [
         role: "Front-end developer",
     },
     {
-        animationDelay: "0.5s",
+        animationDelay: "0s",
         imgSource: require("../images/projects/kplus.png"),
         title: "Kplus",
         description: "Revision of implemented UI designs in panel admin and make it more user friendly.The owner of this project are architectural engineers who needs a platform to provide customers seeking expert services in the fields of renovation and construction. I started to conduct useability issues on admin panel. The main issues were 1) a clutters panel with different charts and scattered data 2) Weakness in displaying the relationship between different parts of projects data",
@@ -20,7 +30,7 @@ export default [
         role: "Front-end developer and UX designer",
     },
     {
-        animationDelay: "0.5s",
+        animationDelay: "0s",
         imgSource: require("../images/projects/forum.png"),
         title: "Forum",
         description: "Forum is designed for hamrah aval’ clients to ask questions about different products, and have discussion with other people. Users can do actions like following a friend or bookmarking their favorite posts. I participated in several meetings to figure out the main functionality of different parts of the project. Then I prepared low fidelity designs and user flows diagrams to establish the understanding of main relationships between users and different actions. After several iterations high fidelity designs were ready.",
@@ -30,7 +40,7 @@ export default [
         role: "Front-end developer and UI/UX designer",
     },
     {
-        animationDelay: "0.5s",
+        animationDelay: "0s",
         imgSource: require("../images/projects/live.png"),
         title: "Live",
         description: "This project has three main parts including login pages, live video streaming, and admin pages. Our backend team used Websocket connections for transferring real-time data between servers and this website. and my main responsibility was helping with implementing UI designs.",
@@ -40,7 +50,7 @@ export default [
         role: "Front-end developer",
     },
     {
-        animationDelay: "0.5s",
+        animationDelay: "0s",
         imgSource: require("../images/projects/osd.png"),
         title: "Hamrahyar",
         description: "The purpose of providing this service is to create a different experience for hamrahe aval’s clients when they want to buy SIM Cards from this company. Users can register and specify the time and place to get their SIM cards in the shortest time.  In this project, I was helping with implementing UI designs.",
@@ -56,7 +66,7 @@ export default [
         description: "The purpose of this project is to inform about the International congress of Pediatrics. Due to the coronavirus pandemic, the conference is scheduled to hold virtually.",
         employer: "Children 's Medical Center-Tehran",
         team: "Rayan Pajouh",
-        date: "July 22, 2020 - August 22, 2020",
+        date: "July/2020 - August/2020",
         role: "UI designer",
     },
     {
@@ -66,17 +76,17 @@ export default [
         description: " According to international standards of e - learning and educational needs, Tehran University of Medical Sciences has managed to present part of its educational programs in the form of online courses.In this project, I have attended several meeting to comperhend what exactly our costumers want.As a member of front - end web developers, I was corporating for applying their claims to interactive visual design.",
         employer: "Tehran University of Medical Science",
         team: "Rayan Pajouh",
-        date: "March 20, 2020 - June 30, 2020 ",
+        date: "March/2020 - June/2020 ",
         role: "Front-end developer",
     },
     {
-        animationDelay: "0.5s",
+        animationDelay: "0s",
         imgSource: require("../images/projects/arman.png"),
         title: "ARMAN",
         description: " Arman is a MOOCs(Massive Open Online Courses) for 'Massive and Modern National Computer Training.Massive refers to the unlimited registration of individuals.The purpose of this project is to provide high quality and credible education system for students and graduates.",
         employer: "Virtual University of Medical Sciences",
         team: "Rayan Pajouh",
-        date: "October 27, 2019 - March 19, 2020 ",
+        date: "October/2019 - March/2020 ",
         role: "Information Technology Supporter",
     }
 ]

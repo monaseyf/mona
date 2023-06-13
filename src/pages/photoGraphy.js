@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const Photography = () => {
   const [images, setImages] = useState([
     {
-      src: require("../images/photography/7.jpg"),
+      src: require("../images/photography/reflection.jpg"),
       lg: "3",
       md: "6",
       sm: "12",
@@ -20,42 +20,42 @@ const Photography = () => {
       category: 1,
     },
     {
-      src: require("../images/photography/3.jpg"),
+      src: require("../images/photography/birds.jpg"),
       lg: "3",
       md: "6",
       sm: "12",
       alt: "gallery",
     },
     {
-      src: require("../images/photography/8.jpg"),
+      src: require("../images/photography/rustic-girl.jpg"),
       lg: "3",
       md: "6",
       sm: "12",
       alt: "gallery",
     },
     {
-      src: require("../images/photography/6.jpg"),
+      src: require("../images/photography/gray-sky.jpg"),
       lg: "3",
       md: "6",
       sm: "12",
       alt: "gallery",
     },
     {
-      src: require("../images/photography/9.jpg"),
+      src: require("../images/photography/footprint.jpg"),
       lg: "3",
       md: "6",
       sm: "12",
       alt: "gallery",
     },
     {
-      src: require("../images/photography/17.jpg"),
+      src: require("../images/photography/roof-detail.jpg"),
       lg: "6",
       md: "6",
       sm: "12",
       alt: "gallery",
     },
     {
-      src: require("../images/photography/11.jpg"),
+      src: require("../images/photography/wind-catcher.jpg"),
       lg: "3",
       md: "6",
       sm: "12",
@@ -77,7 +77,7 @@ const Photography = () => {
           </MDBNavbarBrand>
         </Link>{" "}
         <h3 className="sectionTitle" style={{ marginTop: "15px" }}>
-          Photography{" "}
+          Photo Gallery
         </h3>{" "}
       </MDBNavbar>
       <MDBRow
@@ -112,7 +112,7 @@ const Photography = () => {
               src={
                 activePhoto != null
                   ? activePhoto.src
-                  : require("../images/photography/1.jpg")
+                  : require("../images/photography/shadow.jpg")
               }
             />{" "}
           </div>{" "}

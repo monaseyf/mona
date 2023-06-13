@@ -20,11 +20,11 @@ const Skills = () => {
                   {
                       activeTab == "1" ? (
                         <div className="tabContainer activeTabContainer" onClick={()=>{toggleActiveTab("1")}}>
-                            <p className="tabTitle activeTabTitle">UI/UX Design</p>
+                            <p className="tabTitle activeTabTitle">Professional Skills</p>
                         </div>
                       ) : (
                         <div className="tabContainer" onClick={()=>{toggleActiveTab("1")}}>
-                            <p className="tabTitle">UI/UX Design</p>
+                            <p className="tabTitle">Professional Skills</p>
                         </div>
                       )
                   }
@@ -65,31 +65,31 @@ const Skills = () => {
                           <div>
                                
                                 <MDBAnimation reveal type="fadeInLeft" duration="1500ms" delay="0ms">
-                                    <p className="skillLabel">HTML 5 / CSS 3 / BOOTSTRAP</p>
+                                    <p className="skillLabel">Frontend Development</p>
                                     <MDBProgress value={88} heigth="40px" color="progress">
                                         {/* <span className="progressText">8</span> */}
                                     </MDBProgress>
                                 </MDBAnimation>
                                 <MDBAnimation reveal type="fadeInLeft" duration="1500ms" delay="500ms">
-                                    <p className="skillLabel">VUE JS</p>
+                                    <p className="skillLabel">Degital Marketing</p>
                                     <MDBProgress value={75} heigth="40px" color="progress">
                                         {/* <span className="progressText">7.5</span> */}
                                     </MDBProgress>
                                 </MDBAnimation>
                                 <MDBAnimation reveal type="fadeInLeft" duration="1500ms" delay="1000ms">
-                                    <p className="skillLabel">React JS</p>
+                                    <p className="skillLabel">Adobe Creative Suite(PHOTOSHOP-ILLUSTRATOR-INDESIGN)</p>
                                     <MDBProgress value={50} heigth="40px" color="progress">
                                         {/* <span className="progressText">7.5</span> */}
                                     </MDBProgress>
                                 </MDBAnimation>
                                 <MDBAnimation reveal type="fadeInLeft" duration="1500ms" delay="1500ms">
-                                    <p className="skillLabel">PHOTOSHOP / ILLUSTRATOR</p>
+                                    <p className="skillLabel">User Interface Design</p>
                                     <MDBProgress value={80} heigth="40px" color="progress">
                                         {/* <span className="progressText">6.5</span> */}
                                     </MDBProgress>
                                 </MDBAnimation>
                                 <MDBAnimation reveal type="fadeInLeft" duration="1500ms" delay="2000ms">
-                                    <p className="skillLabel">INDESIGN / AdobeXD</p>
+                                    <p className="skillLabel">Human computer interaction</p>
                                     <MDBProgress value={80} heigth="40px" color="progress">
                                         {/* <span className="progressText">6.5</span> */}
                                     </MDBProgress>
