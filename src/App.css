@@ -71,9 +71,9 @@
 
 /* General Styles - start */
 
-body {
+/* body {
     background-color: #070707;
-}
+} */
 
 h1,
 h2,
@@ -864,13 +864,15 @@ p.eventDate {
     border-radius: 1rem;
 }
 
-.descript {
+.UI-projects-widget {
     background: #3c3c3c;
     border-radius: 1rem;
     text-align: center;
+    margin: 1rem 0 4rem 0;
+    padding: 15px;
 }
 
-.descriptOne {
+.UI-projects-description {
     text-align: justify;
 }
 
@@ -883,6 +885,7 @@ p.eventDate {
     font-family: montserrat, sans-serif;
 }
 
+
 .descriptTow {
     background: #3c3c3c;
     border-radius: 1rem;
@@ -894,7 +897,24 @@ ol li {
     color: #e22b6f;
     margin: 5px 5px;
 }
+@media (max-width: 425px){
 
+    .UiTitle{
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-left: 8px;
+    }
+.ui-widget-details {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ui-widget-text 
+{
+    text-align: left;
+    width: 100%;
+}
+}
 
 /* Other Projects */
 

@@ -14,7 +14,7 @@ const Welcome = () => {
                 I am <span className="distinct-color">Mona</span> Seyf
               </h2>
               <h3 className="pro-h3">
-                An Architect & a <span className="distinct-color">UI/UX</span>{" "}
+                A Developer & a <span className="distinct-color">UI/UX</span>{" "}
                 designer
               </h3>
           </div>
