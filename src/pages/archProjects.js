@@ -40,7 +40,7 @@ const ArchProjects = () => {
                 className="cvBtn"
                 outline
                 color="gray"
-                href="https://monaseyf.github.io/mona/portfolio.pdf"
+                href="./portfolio.pdf"
                 target="_blank"
               >
                 Portfolio{" "}
